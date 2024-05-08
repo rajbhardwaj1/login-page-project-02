@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(82, 82, 150);
+}
+.main_con {
+  width: 75%;
+  height: 500px;
+  margin: 80px auto;
+  position: relative;
+  background: linear-gradient(90deg, #b4b4f7 50%, rgb(135, 133, 248) 100%);
+}
+.form1 {
+  position: absolute;
+  width: 50%;
+  background-color: white;
+  height: 550px;
+  right: 70px;
+  top: -60px;
+  z-index: 1;
+  padding-top: 60px;
+}
+.trangle1 {
+  width: 0px;
+  height: 0px;
+  border-top: 30px solid transparent;
+  border-right: 160px solid rgba(238, 240, 248, 0.1);
+  border-bottom: 160px solid transparent;
+  position: absolute;
+  top: 70px;
+  left: 27%;
+}
+
+.trangle2 {
+  width: 0px;
+  height: 0px;
+  border-top: 500px solid transparent;
+  border-left: 500px solid rgba(226, 226, 248, 0.1);
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+}
+.i1 {
+  margin-left: 9%;
+  height: 45px;
+  width: 80%;
+  margin-top: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.button1 {
+  height: 50px;
+  width: 140px;
+  position: absolute;
+  left: 34%;
+  bottom: 130px;
+  background-color: rgb(252, 54, 120);
+  font-size: 18px;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgb(231, 6, 81);
+}
+h1 {
+  color: white;
+  position: absolute;
+  top: 160px;
+  left: 100px;
+}
+.button2 {
+  height: 45px;
+  width: 120px;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 240px;
+  left: 165px;
+}
